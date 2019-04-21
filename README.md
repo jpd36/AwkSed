@@ -1,6 +1,6 @@
 This assignment consists of 2 problems.
 
-1. Write an awkprogram file named myawkwhich does the followings:
+1. Write an awk program file named myawkwhich does the followings:
 •Display << Startof file >>at the top.
 •Display lines between the 3rd line and the 5th line. 
 •Display each line backwards, that is, from right to left.
