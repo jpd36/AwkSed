@@ -1,0 +1,7 @@
+# Jonathan Pham
+# cs2750
+# 02/08/2018
+
+BEGIN { print "<< Start of file >>" } 
+NR > 2 && NR < 6 {for (i=NF; i >=1 ; i--) printf "%s ", $i; printf "\n"; wordCount+=NF; } 
+END { print "<< End of file: wordCount = " wordCount " >>" }
